@@ -23,7 +23,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "/Users/kamilmisiak/Documents/PROGRAMISTA/ANGULAR/todo/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },

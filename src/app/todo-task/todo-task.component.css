@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin-left: 42px;
+}
+
+li {
+    background: lightgray;
+    margin: 5px;
+    height: 47px; 
+    min-width: 400px;
+}
+
+.odd-li {
+    background: lavender;
+    margin: 5px;
+}
+
+.last-li {
+    background: pink;
+    margin: 5px;
+}
+
+button {
+    float: right; 
+}

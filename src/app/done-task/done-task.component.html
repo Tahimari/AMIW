@@ -1,0 +1,6 @@
+<p>Wykonane zadania: {{doneTasksList.length}}</p>
+<ul>
+  <li appChecked appDate [date]="done.end" *ngFor="let done of doneTasksList">
+    {{done.name | transformTask}}
+  </li>
+</ul>
