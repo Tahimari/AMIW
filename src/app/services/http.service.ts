@@ -11,7 +11,7 @@ export class HttpService {
   // tslint:disable-next-line:quotemark
   readonly URL_DB = "https://api.mlab.com/api/1/databases/angular_db/collections/tasks";
   // tslint:disable-next-line:quotemark
-  readonly param = new HttpParams().set("apiKey", "1lU8fTSlNe0D06rPYdXMU-wkzcZ5WnMa");
+  readonly param = new HttpParams().set("apiKey", "key");
 
   constructor(private http: HttpClient) {
     this.getTask();
